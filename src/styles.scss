@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/bootstrap.min.css";
+@import "ngx-toastr/toastr";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.toast-top-center {
+  top: 20px;
+}
+.mat-h3,
+.mat-subtitle-1,
+.mat-typography .mat-h3,
+.mat-typography .mat-subtitle-1,
+.mat-typography h3 {
+  margin-bottom: 0; /* Override the margin-bottom property */
+}
